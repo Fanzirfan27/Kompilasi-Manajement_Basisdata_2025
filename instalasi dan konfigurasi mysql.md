@@ -111,5 +111,5 @@ b.   innodb_buffer_pool_size dr default 16M (menjadi 25% dari RAM )
 
 ## 7. Sumber Referensi
 - [MySQL Documentation](https://dev.mysql.com/doc/)
-- Panduan Praktikum Sistem Manajemen Basis Data
+- [Panduan Praktikum Sistem Manajemen Basis Data](https://drive.google.com/file/d/1E1SBJXj0sZxMpt6FOjliDfrdSAc26y47/view?usp=sharing)
 
