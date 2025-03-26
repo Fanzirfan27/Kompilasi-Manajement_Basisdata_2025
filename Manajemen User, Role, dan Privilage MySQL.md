@@ -72,7 +72,40 @@ Dengan menerapkan manajemen user, role, dan privilege yang baik, database menjad
 Manajemen pengguna dalam MySQL sangat penting untuk menjaga integritas dan keamanan database. Dengan menggunakan user, role, privilege, dan monitoring, administrator dapat memastikan akses yang sesuai dan menghindari potensi ancaman keamanan.
 
 ## 6. Bukti Dukung Gambar
-(Tambahkan screenshot hasil query dan konfigurasi monitoring.)
+1.   Lakukan proses pembuatan username sebanyak jumlah kelompok anda. Tuliskan script
+dan tampilkan hasilnya.
+![1](https://github.com/user-attachments/assets/3be9bd51-b93d-465c-a0cd-199597862be0)
+
+2.   Lakukan penghapusan username terhadap user yang sudah dibuat. Tuliskan script dan tampilkan hasilnya
+![2](https://github.com/user-attachments/assets/d8d1ef51-ab90-4364-9e5a-e389efea1476)
+
+3.   Buat role dengan “role_nama_anda_insert_select” → role_andi_select_insert.
+ ![3](https://github.com/user-attachments/assets/540a5519-49c5-4879-ace9-a9dcca7ab343)
+ 
+4.   Berikan privilege select, insert kedalam role diatas. 
+5.   Buat role dengan “role_nama_anda_create_drop” → role_andi_create_drop.
+![5](https://github.com/user-attachments/assets/2f1bbb5e-367c-4ce1-ac6f-7a31cd50ab92)
+
+6.   Berikan privilege create, drop kedalam role diatas.
+![6](https://github.com/user-attachments/assets/3bdea653-9f4d-40e9-8799-1f3ff26fd88a)
+
+7.   Berikan 2 user kedalam masing-masing role diatas.
+![7](https://github.com/user-attachments/assets/326a676a-faed-4855-ab7f-b78c2525af02)
+
+8.   Lakukan pengujian sebelum dan sesudah user diberikan role.
+- BEFORE : <br>
+![8a](https://github.com/user-attachments/assets/e5458975-c92d-488e-bc2b-8382e4e51db2)
+- AFTER : <br>
+![8b](https://github.com/user-attachments/assets/2d8a8612-64e8-40c1-ad46-e96308ceccfd)
+
+9.   Lepas role dari user diatas. Sehingga user menjadi tidak memiliki role.
+![9](https://github.com/user-attachments/assets/8e9d5a58-48a8-41d2-a74f-37e6b55bd591)
+
+10.  Lakukan  konfigurasi  untuk  proses  monitoring  proses  seperti  contoh  diatas,  dan  lakukan beberapa kali proses query. Kemudian lihat di log nya dan tampilkan hasilnya.  
+- TABEL DI USER IRFAN
+![10a](https://github.com/user-attachments/assets/6c6d3d65-df2a-4395-b3d6-da4ab5f67ffc)
+- TABEL DI USER ROOT
+![10b](https://github.com/user-attachments/assets/b9187698-069a-4c97-bade-fe04d1dbb0e9)
 
 ## 7. Sumber Referensi
 - [MySQL Documentation](https://dev.mysql.com/doc/)
