@@ -109,5 +109,5 @@ dan tampilkan hasilnya.
 
 ## 7. Sumber Referensi
 - [MySQL Documentation](https://dev.mysql.com/doc/)
-- Panduan Praktikum Sistem Manajemen Basis Data
+- [Panduan Praktikum Sistem Manajemen Basis Data](https://drive.google.com/file/d/10rLU8k_D0NKkDUkn5Ec-Njk71qbuqmta/view?usp=sharing)
 
