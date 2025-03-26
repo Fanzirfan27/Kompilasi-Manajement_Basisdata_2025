@@ -102,9 +102,9 @@ dan tampilkan hasilnya.
 ![9](https://github.com/user-attachments/assets/8e9d5a58-48a8-41d2-a74f-37e6b55bd591)
 
 10.  Lakukan  konfigurasi  untuk  proses  monitoring  proses  seperti  contoh  diatas,  dan  lakukan beberapa kali proses query. Kemudian lihat di log nya dan tampilkan hasilnya.  
-- TABEL DI USER IRFAN
+- TABEL DI USER IRFAN <br>
 ![10a](https://github.com/user-attachments/assets/6c6d3d65-df2a-4395-b3d6-da4ab5f67ffc)
-- TABEL DI USER ROOT
+- TABEL DI USER ROOT <br>
 ![10b](https://github.com/user-attachments/assets/b9187698-069a-4c97-bade-fe04d1dbb0e9)
 
 ## 7. Sumber Referensi
