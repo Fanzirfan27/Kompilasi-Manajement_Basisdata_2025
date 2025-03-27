@@ -170,25 +170,81 @@ Table Raw
 ```sql
 SELECT * FROM tr_penjualan_raw WHERE tgl_transaksi > DATE('2010-08-01') AND tgl_transaksi < DATE('2011-07-31') 
 ```
+Hasil waktu eksekusi:
+| Percobaan | Waktu (s) |
+|-----------|----------|
+| 1         | 16,253   |
+| 2         | 16,168   |
+| 3         | 14,856   |
+| 4         | 16,659   |
+| 5         | 16,012   |
+| 6         | 16,566   |
+| 7         | 14,881   |
+| 8         | 16,557   |
+| 9         | 16,261   |
+| 10        | 16,348   |
+**Rata-rata: 16,056 s**
 
 
 Table Partisi
 ```sql
 SELECT * FROM tr_penjualan_partisi WHERE tgl_transaksi > DATE('2010-08-01') AND tgl_transaksi < DATE('2011-07-31')
 ```
+Hasil waktu eksekusi:
+| Percobaan | Waktu (s) |
+|-----------|----------|
+| 1         | 15,058   |
+| 2         | 15,505   |
+| 3         | 15,406   |
+| 4         | 16,135   |
+| 5         | 15,097   |
+| 6         | 14,751   |
+| 7         | 14,552   |
+| 8         | 14,253   |
+| 9         | 16,221   |
+| 10        | 14,403   |
+**Rata-rata: 15,138 s**
 
 
 Table Raw
 ```sql
 SELECT * FROM tr_penjualan_raw WHERE kode_cabang = 'CABANG-039'; 
 ```
+Hasil waktu eksekusi:
+| Percobaan | Waktu (s) |
+|-----------|----------|
+| 1         | 38,963   |
+| 2         | 37,89    |
+| 3         | 36,847   |
+| 4         | 37,66    |
+| 5         | 37,598   |
+| 6         | 36,761   |
+| 7         | 37,051   |
+| 8         | 37,106   |
+| 9         | 37,106   |
+| 10        | 37,559   |
+**Rata-rata: 37,454 s**
 
 
 Table Partisi
 ```sql
 SELECT * FROM tr_penjualan_partisi WHERE kode_cabang = 'CABANG-039';
 ```
+Hasil waktu eksekusi:
+| Percobaan | Waktu (s) |
+|-----------|----------|
+| 1         | 31,764   |
+| 2         | 32,551   |
+| 3         | 33,321   |
+| 4         | 34,761   |
+| 5         | 30,781   |
+| 6         | 30,841   |
+| 7         | 33,831   |
+| 8         | 34,971   |
+| 9         | 35,821   |
+| 10        | 36,009   |
+**Rata-rata: 33,465 s**
 
 ## **Referensi**  
 - [Dokumentasi MySQL Partisi Tabel](https://dev.mysql.com/doc/refman/8.0/en/partitioning.html)  
-- Pengalaman implementasi dalam proyek database 
+- [Praktikum Sistem Manajemen Basis Data](https://drive.google.com/file/d/1owdQasYnWgnII95wxeOau5ixu9UYlGoS/view?usp=sharing)
